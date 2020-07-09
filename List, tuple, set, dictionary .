@@ -1,0 +1,18 @@
+#Assigning variable 
+strings = ['a', 'd', 'g', 'j']
+numbers = [12,14,23,25]
+tuple = (2,3,4,6,[8,1],5)
+dict = {'phyton':'coding','jupyter':'compiler','my captain':'awesome'}
+
+#Assign elements to different lists
+print(strings+numbers)
+
+#assign elements from tuple
+print(tuple)
+
+tuple [4][0] = 9
+print(tuple)
+
+#to delete an element from dictionary 
+del dict['jupyter']
+print(dict)
