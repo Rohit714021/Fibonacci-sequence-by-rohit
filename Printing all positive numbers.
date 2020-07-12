@@ -1,0 +1,11 @@
+#printing all positive numbers in a list 
+while True:
+    a = input("Enter the numbers list:")
+    b = a.split(',')
+    nums = []
+    for i in b:
+        nums.append(int(i))
+    for nums in nums:
+        if nums >0:
+            print(nums)
+            continue
